@@ -14,8 +14,26 @@
 body {
     font-family: var(--primary-font);
     color: var(--text-color);
-    background-color: var(--background-color) 
+    background-color: var(--background-color);
     }
+
+    p, 
+    h1, 
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    ul, 
+    ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
 .link {
     text-decoration: none;
 }
@@ -230,4 +248,77 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: left;
         color: var(--text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*Header diposition */
+
+.container {
+    max-width: 1127px;
+    width: 100%;
+    padding-right: 15;
+    padding-left: 15;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.nav-container {
+display: flex;
+align-items: center;
+flex-grow: 1;
+justify-content: space-between;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 320px;
+}
+.link-header {
+    display: flex;
+        align-items: center;
+        gap: 40px;
+}
+
+.title-container {
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    max-width: 1140px;
+    width: 100%;
+    
+}
+.main-title {
+    max-width: 496px;
+    margin: 0 auto;
+}
+.title-container .main-button {
+    padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.about-company-container {
+    display: flex;
+ 
 }
