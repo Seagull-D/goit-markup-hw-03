@@ -176,7 +176,7 @@ font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align:left;
+        text-align:center;
         color: var(--text-color-second);
 }
 
@@ -186,7 +186,7 @@ font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: left;
+        text-align: center;
         color: var(--text-color);
 }
 
@@ -266,7 +266,7 @@ font-style: normal;
 /*Header diposition */
 
 .container {
-    max-width: 1127px;
+    max-width: 1200px;
     width: 100%;
     padding-right: 15;
     padding-left: 15;
@@ -320,5 +320,56 @@ justify-content: space-between;
 
 .about-company-container {
     display: flex;
- 
+    padding-top: 120px;
+    gap: 24px;
+}
+
+.list-container  {
+   
+    max-width: 264px;
+}
+.abaut-company-text {
+    margin-top: 8px;
+}
+
+
+    .studio-services {
+        width: 0 auto;
+        margin-top: 120px;
+    }
+
+.studio-services-container {
+    display: flex;
+    gap: 24px;
+   margin-top: 65px;
+padding-bottom: 126px;
+}
+.team-title {
+  width: 0 auto;  
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.employee-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+.team-name-title {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    
+
+}
+.team-name-text {
+    padding-bottom: 32px;
+}
+
+.footer-dispo-container{
+    padding-top: 101px;
+    padding-bottom: 100px;
+}
+.footer-text {
+    max-width: 264px;
+    padding-top: 18px;
 }
