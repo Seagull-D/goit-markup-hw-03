@@ -33,6 +33,10 @@ body {
         margin-bottom: 0;
         margin-left: 0;
     }
+img {
+    display: block;
+    max-width: 100%;
+    }
 
 .link {
     text-decoration: none;
@@ -109,6 +113,7 @@ font-style: normal;
         background-color: #4D5AE5;
         color: #ffffff;
         cursor: pointer;
+        
 }
 .main-button:hover, .main-button:active, .main-button:focus {
     background-color: #404BBF;
@@ -266,7 +271,7 @@ font-style: normal;
 /*Header diposition */
 
 .container {
-    max-width: 1200px;
+    max-width: 1128px;
     width: 100%;
     padding-right: 15;
     padding-left: 15;
@@ -372,4 +377,40 @@ padding-bottom: 126px;
 .footer-text {
     max-width: 264px;
     padding-top: 18px;
+}
+
+.button-container {
+    display: flex;
+    width: 0 auto;
+    position: relative;
+
+    
+}
+.menu-button {
+
+display: block;
+padding: 12px 24px;
+align-items: center;
+border-radius: 4px;
+border: 1px solid #E7E9FC;
+
+}.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:48px 24px;
+}
+
+.portfolio-cards {
+    width: calc((100% - 24px * 2) / 3);
+    border: 1px solid #E7E9FC;
+}
+
+.content-title {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+.p-body-font {
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
