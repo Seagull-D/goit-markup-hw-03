@@ -271,16 +271,17 @@ font-style: normal;
 /*Header diposition */
 
 .container {
-    max-width: 1128px;
+    max-width: 1200px;
     width: 100%;
-    padding-right: 15;
-    padding-left: 15;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 0 auto;
 }
 
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 .nav-container {
 display: flex;
@@ -288,10 +289,14 @@ align-items: center;
 flex-grow: 1;
 justify-content: space-between;
 }
+.logo {
+    margin-right: 76px;
+}
 .header-menu {
     display: flex;
-    align-items: center;
+   
     gap: 40px;
+    padding: 24px 0
 }
 .header-container {
     display: flex;
@@ -307,7 +312,7 @@ justify-content: space-between;
 .title-container {
     margin: 0 auto;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     max-width: 1140px;
     width: 100%;
     
@@ -316,11 +321,18 @@ justify-content: space-between;
     max-width: 496px;
     margin: 0 auto;
 }
-.title-container .main-button {
+ .main-button {
     padding: 16px 32px;
     display: block;
     margin: 0 auto;
     margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+.section-company {
+    padding: 120px 0;
 }
 
 .about-company-container {
@@ -330,17 +342,21 @@ justify-content: space-between;
 }
 
 .list-container  {
-   
+    width: calc((100% - 72px) / 4)
     max-width: 264px;
 }
-.abaut-company-text {
-    margin-top: 8px;
+
+.about-company-title {
+    margin-bottom: 8px;
 }
 
-
+.studio-section {
+    display: flex;
+    padding-bottom: 120px;
+}
     .studio-services {
         width: 0 auto;
-        margin-top: 120px;
+        
     }
 
 .studio-services-container {
@@ -348,36 +364,51 @@ justify-content: space-between;
     gap: 24px;
    margin-top: 65px;
 padding-bottom: 126px;
+
+}
+
+.studio-services-item {
+    width: calc((100% - 48px) / 3)
+}
+
+.team-container {
+padding: 120px 0;
 }
 .team-title {
-  width: 0 auto;  
-  padding-top: 120px;
-  padding-bottom: 72px;
+   width: 0 auto;  
+   margin-bottom: 72px;
 }
 
 .employee-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+   
+}
+.team_list{
+    width: calc((100% - 72px) / 4)
+    border-radius: 0px 0px 4px 4px;
 }
 .team-name-title {
-    padding-top: 32px;
-    padding-bottom: 8px;
     
+    padding-bottom: 8px;
+    text-align: center;
 
 }
-.team-name-text {
-    padding-bottom: 32px;
+.employee-name {
+    padding: 32px 16px;
+
 }
 
-.footer-dispo-container{
-    padding-top: 101px;
+
+.footer-container{
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .footer-text {
     max-width: 264px;
-    padding-top: 18px;
+    
 }
+
 
 .button-container {
     display: flex;
@@ -385,21 +416,21 @@ padding-bottom: 126px;
     padding-bottom: 72px;
     padding-top: 96px;
     gap: 24px;
-    
-    
-
-    
 }
+.logo-footer {
+display: inline-block;
+margin-bottom: 16px;
+}
+
+    
+
 .menu-button {
-
-
 display: block;
 padding: 12px 24px;
-
 border-radius: 4px;
 border: 1px solid #E7E9FC;
-
-}.service-container {
+}
+.service-container {
     display: flex;
     flex-wrap: wrap;
     gap:48px 24px;
