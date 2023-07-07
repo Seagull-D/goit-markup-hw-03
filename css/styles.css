@@ -447,16 +447,19 @@ border: 1px solid #E7E9FC;
 .service-container {
     display: flex;
     flex-wrap: wrap;
-    gap:24px 48px;
+    gap: 48px 24px;
     padding-bottom: 120px;
 }
 
 .portfolio-cards {
-    width: calc((100% - 48px);
+    width: calc((100% - 48px) / 3;
     border: 1px solid #E7E9FC;
 }
 
 .list-link {
     padding: 32px 16px;
 
+}
+.content-title {
+    margin-bottom: 8px;
 }
