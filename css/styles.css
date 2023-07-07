@@ -459,8 +459,9 @@ border: 1px solid #E7E9FC;
 
 .list-link {
     padding: 32px 16px;
-    
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .content-title {
-   margin-bottom: 8px;
+    margin-bottom: 8px;
 }
