@@ -296,6 +296,7 @@ justify-content: space-between;
 }
 .header-menu {
     display: flex;
+    padding: 24px 0;
    
     gap: 40px;
     padding: 24px 0
@@ -437,14 +438,16 @@ display: block;
 padding: 12px 24px;
 border-radius: 4px;
 border: 1px solid #E7E9FC;
-.menu-button:hover, .menu-button:focus {
-border: 1px solid transparent;
+
 }
+.menu-button:hover,
+.menu-button:focus {
+    border: 1px solid transparent;
 }
 .service-container {
     display: flex;
     flex-wrap: wrap;
-    gap:48px 24px;
+    gap:24px 48px;
     padding-bottom: 120px;
 }
 
@@ -453,15 +456,7 @@ border: 1px solid transparent;
     border: 1px solid #E7E9FC;
 }
 
-
-
 .list-link {
-    padding: 32px 0;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
+    padding: 32px 16px;
 
-.content-title {
-    margin-bottom: 8px;
 }
-
