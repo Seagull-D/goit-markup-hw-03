@@ -95,6 +95,7 @@ font-style: normal;
 
 .main-title-container {
     background-color: var(--background-second-color);
+
 }
 .main-title {
     font-size: 56px;
@@ -271,7 +272,7 @@ font-style: normal;
 /*Header diposition */
 
 .container {
-    max-width: 1200px;
+    max-width: 1158px;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -291,6 +292,7 @@ justify-content: space-between;
 }
 .logo {
     margin-right: 76px;
+    padding: 24px 0;
 }
 .header-menu {
     display: flex;
@@ -311,11 +313,14 @@ justify-content: space-between;
 
 .title-container {
     margin: 0 auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
     max-width: 1140px;
     width: 100%;
     
+    
+}
+.main-title-container {
+    padding: 188px 0;
 }
 .main-title {
     max-width: 496px;
@@ -342,7 +347,7 @@ justify-content: space-between;
 }
 
 .list-container  {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
     max-width: 264px;
 }
 
@@ -356,6 +361,7 @@ justify-content: space-between;
 }
     .studio-services {
         width: 0 auto;
+        margin-bottom: 72px;
         
     }
 
@@ -368,7 +374,7 @@ padding-bottom: 126px;
 }
 
 .studio-services-item {
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
 }
 
 .team-container {
@@ -385,12 +391,12 @@ padding: 120px 0;
    
 }
 .team_list{
-    width: calc((100% - 72px) / 4)
-    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 .team-name-title {
     
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     text-align: center;
 
 }
@@ -413,9 +419,8 @@ padding: 120px 0;
 .button-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 72px;
-    padding-top: 96px;
-    gap: 24px;
+    margin-bottom: 72px;
+       gap: 24px;
 }
 .logo-footer {
 display: inline-block;
@@ -423,12 +428,18 @@ margin-bottom: 16px;
 }
 
     
-
+.menu-container {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .menu-button {
 display: block;
 padding: 12px 24px;
 border-radius: 4px;
 border: 1px solid #E7E9FC;
+.menu-button:hover, .menu-button:focus {
+border: 1px solid transparent;
+}
 }
 .service-container {
     display: flex;
@@ -438,17 +449,19 @@ border: 1px solid #E7E9FC;
 }
 
 .portfolio-cards {
-    width: calc((100% - 24px * 2) / 3);
+    width: calc((100% - 48px);
     border: 1px solid #E7E9FC;
 }
 
+
+
+.list-link {
+    padding: 32px 0;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .content-title {
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    margin-bottom: 8px;
 }
-.p-body-font {
-    padding-bottom: 32px;
-    padding-left: 16px;
-    
-}
+
