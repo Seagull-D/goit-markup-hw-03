@@ -297,10 +297,12 @@ justify-content: space-between;
 }
 .header-menu {
     display: flex;
-    padding: 24px 0;
-   
+    
     gap: 40px;
-    padding: 24px 0
+    
+}
+.heder-menu-item {
+    padding: 24px 0;
 }
 .header-container {
     display: flex;
