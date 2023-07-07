@@ -70,6 +70,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
+        padding: 24px 0;
 }
 .contact-link:hover, .contact-link:active, .contact-link:focus {
     color: #404bbf;
@@ -301,10 +302,10 @@ justify-content: space-between;
     gap: 40px;
     
 }
-.heder-menu-item {
+/* .heder-menu-item {
     padding-top: 24px;
     padding-bottom: 24px;
-}
+} */
 .header-container {
     display: flex;
     align-items: center;
